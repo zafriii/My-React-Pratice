@@ -1,0 +1,47 @@
+.hero {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero h1 {
+    font-weight: 800;
+    line-height: 102px;
+    font-size: 100px;
+    margin-left: 100px;
+  }
+  
+  .hero h4 {
+    margin-left: 100px;
+    margin-top: 20px;
+    
+  }
+  
+  .hero p {
+    font-weight: 600;
+    color: #746a6a;
+    max-width: 400px;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  
+  .hero_button button{
+    background-color:  #d01c28;
+    color: white;
+    border: 1px solid #d01c28;
+    border-radius: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 100px;  
+    margin-top: 20px;
+  }
+  
+  .brand_icons{
+    margin-left: 100px;  
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+
+
+ 

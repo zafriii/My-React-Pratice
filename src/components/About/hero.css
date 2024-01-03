@@ -1,0 +1,59 @@
+.hero-image{
+    margin-top: 50px;
+    display: flex;
+}
+
+.hero-image img{
+    height: 500px;
+    width:60%
+}
+
+.discount{
+    background-color: #be0d18;
+    color: white; 
+    height: 500px;
+    width: 50%;  
+}
+
+.discount-text h1{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 50px;
+ }
+
+.discount-text h2{
+   margin-top: 50px;
+   margin-left: 100px;
+   font-size: 50px;
+}
+
+.discount-text button{
+    background: white;
+    color: #be0d18;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:1px solid white ;
+    margin-top: 40px;
+    margin-left: 40%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900 ;
+    cursor: pointer;
+}
+
+.card-comps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    
+}
+
+.social-media{
+    height: 50px;
+    margin-top: 100px;
+    background-color:#d01c28 ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

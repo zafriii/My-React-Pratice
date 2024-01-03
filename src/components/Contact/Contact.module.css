@@ -1,0 +1,91 @@
+.contact_section h1{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.contact_section p{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.top_btn button{
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    min-width: 220px;
+    
+    
+}
+
+.top_btn{
+    display: flex;
+}
+
+.down_btn button{
+    padding: 10px 10px;
+    min-width: 400px;
+    color: black;
+    background-color: white;
+    margin-left: 250px;
+}
+
+.container{
+    display: flex;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact_form form {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+    flex-direction: column;
+}
+
+.form_control {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    
+  }
+  
+  .form_control input {
+    height: 40px;
+    padding: 0 8px;
+    margin-left: 150px;
+  }
+
+  .form_control textarea {
+    padding: 8px;
+    margin-left: 150px;
+  }
+
+  .form_control label {
+    font-size: 14px;
+    padding: 0 10px;
+    margin-top: 30px;
+    margin-left: 150px;
+    
+  }
+
+.contactImage{
+    margin-top: 100px;
+}
+  
+.submit_btn button{
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    min-width: 150px;
+   
+}
+
+.submit_btn{
+display: flex;
+justify-content: flex-end;
+}

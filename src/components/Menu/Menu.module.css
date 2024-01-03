@@ -1,0 +1,159 @@
+.head_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d01c28;
+}
+
+.search input{
+   margin-left: 20px;
+   padding: 10px 20px;
+   border:2px solid #d01c28;
+   border-radius: 20px;
+
+}
+
+.search span{
+   
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 20px 80px;
+}
+
+.box{
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    margin-top: 20px;
+    background-color:#e8e8e8;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.content{
+   
+    align-items: center;
+    max-width: 100%;
+    
+}
+
+.img_box img{
+    width: 60%;
+    margin-left: 50px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;   
+}
+
+.info h3{
+    color: #d01c28;
+    font-weight:800;
+}
+
+.info p{
+    color: #d01c28;
+    font-weight:800;
+}
+
+.container button{
+    margin-top: 30px;
+    margin-left: 35%;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d01c28;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.detail_container{
+    position: absolute;
+    z-index: 1;
+    align-items: center;
+    width: 900px;
+    margin-top: 20%;
+    margin-left: 15%;
+    background-color:white;
+    border: 1px solid #e8e8e8;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px 30px;
+}
+
+.detail_content{
+    max-width: 100%;
+}
+
+.detail_content .close{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #d01c28;
+    cursor: pointer;
+}
+   
+.detail_info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.detail_img_box img{
+    width: 250px;
+    height: 300px;
+}
+
+.product_detail{
+    margin-left: 30px;
+}
+
+.product_detail h2{
+    color: #d01c28;
+    font-weight:800;
+}
+
+.product_detail h3{
+    color: #d01c28;
+    font-weight:800;
+    margin-top: 20px;
+}
+
+.product_detail p{
+    
+    font-weight:800;
+    margin-top: 20px;
+}
+
+.product_detail button{
+    margin-top: 30px;
+    margin-left: 35%;
+    padding: 10px 30px;
+    border: none;
+    background-color: #d01c28;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
